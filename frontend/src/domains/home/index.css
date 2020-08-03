@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'segoe ui';
+}
+
+.container {
+    height: 20em;
+    width: 100%;
+    background-color: #332f46;
+    position: relative;
+}
+
+.container>.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container>.nav-header>.information {
+    display: flex;
+    justify-content: space-between;
+    width: 58em;
+    margin-top: 2em;
+    align-items: center;
+}
+
+.nav-button {
+    display: flex;
+    height: 3em;
+    width: 12em;
+    cursor: pointer !important;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-icon {
+    width: 25em;
+}
+
+.nav-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-left: -.7em;
+}
+
+.content-button {
+    background-color: #39B100;
+    width: 71%;
+    border-bottom-left-radius: .5em;
+    border-top-left-radius: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.plus-icon {
+    background-color: #41C900;
+    padding: 6px 16px 6px 12px;
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.main-container {
+    max-width: 59em;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.product-item {
+    width: 17.5em;
+    height: 23em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image .container {
+    display: flex;
+    height: 100%;
+    background-color: #FFB85C;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.product-image .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.product-description {
+    background-color: #F0F0F5;
+    height: 45%;
+}
+
+.product-description .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1.5em;
+}
+
+.product-description .info-container .title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D4D;
+}
+
+.product-description .info-container .description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3D3D4D;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+
+.product-description .info-container .price .currency,
+.value {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #39B100;
+}
+
+.product-description .info-container .price .value {
+    font-weight: bold;
+}
+
+.product-actions {
+    background-color: #E4E4EB;
+    height: 17%;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+
+.product-actions .items {
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 33%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.product-actions .items .icons {
+    cursor: pointer !important;
+    outline: none;
+    padding: 0;
+    border: none;
+    background-color: white;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: .5em;
+}
+
+
+@media (max-width:600px) {
+    .container>.nav-header>.information {
+        flex-direction: column;
+    }
+
+    .main-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-title {
+        margin-bottom: 1em;
+    }
+
+    .nav-icon {
+        margin-left: -68px;
+    }
+}

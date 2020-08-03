@@ -1,0 +1,90 @@
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -5px 0 0 -10px;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #121214;
+    width: 3em;
+    height: 3em;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    opacity: 0.9;
+}
+
+.modal-top-loader {
+    top: 34%;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+#main-information,
+#modal-loader {
+    display: none;
+}
+
+
+@media (max-width:600px) {
+    .loader {
+        top: 50%;
+        left: 45%;
+    }
+
+    .modal-top-loader {
+        top: 54%;
+    }
+}

@@ -1,0 +1,49 @@
+{
+  "produtos": [
+    {
+      "productName": "javascript",
+      "productPrice": 456.78,
+      "productDecription": "dfghj",
+      "productCover": "https://cdn.iconscout.com/icon/free/png-512/javascript-20-555998.png",
+      "id": 30
+    },
+    {
+      "productName": "javascript",
+      "productPrice": 1.11,
+      "productDecription": "teste",
+      "productCover": "https://cdn.iconscout.com/icon/free/png-512/javascript-20-555998.png",
+      "id": 31
+    },
+    {
+      "id": 32,
+      "productName": "javascript de cu é rola",
+      "productPrice": 456.78,
+      "productDecription": "A amizade consegue ser tão complexa... Deixa uns desanimados, outros bem felizes... É a alimentação dos fracos É o reino dos fortes",
+      "productCover": "https://cdn.iconscout.com/icon/free/png-512/javascript-20-555998.png"
+    },
+    {
+      "productName": "javascript",
+      "productPrice": 156.78,
+      "productDecription": "tstett",
+      "productCover": "https://cdn.iconscout.com/icon/free/png-512/javascript-20-555998.png",
+      "id": 33
+    },
+    {
+      "productName": "javascript",
+      "productPrice": 567.89,
+      "productDecription": "https://cdn.iconscout.com/icon/free/png-512/javascript-20-555998.png",
+      "productCover": "https://cdn.iconscout.com/icon/free/png-512/javascript-20-555998.png",
+      "id": 34
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Hambúrgueres"
+    },
+    {
+      "id": 2,
+      "nome": "Refrigerantes"
+    }
+  ]
+}
